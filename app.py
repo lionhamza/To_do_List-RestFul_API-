@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # PostgreSQL configuration
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:password@localhost/todo_db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:ProNearBy%4011@localhost:5432/ProNearBy_DB'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db.init_app(app)
